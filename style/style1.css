@@ -1,0 +1,122 @@
+body{
+    background-color:white;
+    margin-top: 40px;
+    margin-left: 66px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+h2{ display: none;
+}
+h1 { 
+    padding:20px;
+    border-bottom:1px solid gray;
+}
+figure {
+    position: absolute;
+    top: 28px;
+    left: 933px;
+}
+#about h3{
+    display:none;
+}
+#about{
+    display:inline-block;
+    width:800px;
+    color:rgb(124, 118, 118)
+}
+img{
+    width:150px;
+    height:150px;
+    transform: rotate(-25deg);
+}
+h3{
+    width:100px;
+}
+.skills-primary{
+    border-left:2px solid;
+    margin-left:155px; 
+}
+.skills-secondary{
+    border-left:2px solid;
+    margin-left:155px;
+}
+.experience{
+    border-left:2px solid;
+    margin-left:155px;
+    margin-top:0px;
+    height:150px;
+}
+.education { 
+    border-left:2px solid;
+    margin-left:155px;
+    margin-top:50px;
+
+}
+ul{
+    border-left:2px solid;
+    margin-left:155px;
+    margin-top:50px;
+}
+#contact h3 {
+    display: none;
+}
+h4{
+    color:rgb(50, 109, 96);
+    margin-top:0;
+    margin-left:5px;
+}
+.experience-details {
+    width: 200px;
+    margin-left: 900px;
+    height: 20px;
+    margin-top: -40px;  
+    color:gray;      
+}
+p.experience-description{
+    margin:28px;
+    margin-bottom:0;
+}
+.skill{
+    background-color:rgb(21, 145, 124);
+    height:25px;
+    margin-left:5px;
+
+}
+[data-skill='5']{
+    width:200px;
+    float:left; 
+}
+[data-skill='3']{
+    width:200px;
+    float:left;
+    
+}
+[data-skill='1']{
+    width:200px;
+    float:left;
+    margin-right:300px;
+ 
+}
+[data-skill='7']{
+    width:200px;
+    float:left;
+    margin-top:10px;
+
+}
+
+[data-skill='9']{
+    width:200px;
+    float:left;
+    margin-top:10px;
+
+}
+.skills-secondary [data-skill='5']{
+    margin-top:10px;
+}
+span{
+    color:white;
+}.contact-email{
+    height:200px;
+    width:200px;
+    background-image:url('mail-1.png')
+}

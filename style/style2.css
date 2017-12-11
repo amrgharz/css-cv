@@ -1,0 +1,97 @@
+body {background-color:white;
+margin-left:25px;
+}
+hgroup {
+color:red;
+background:gray;
+padding:25px;
+}
+figure{
+    position:absolute;
+    left:200px;
+    top:15px;
+
+}
+section{
+    position: relative;
+    float: left;
+    width:600px;
+}
+h3::before{
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: red;
+}
+h3{border-bottom: 2px solid gray;
+    padding:10px;
+}
+h4{
+    color:red;
+}
+.experience-details{
+    color:gray;
+
+}
+
+#contact{
+    position:absolute;
+    top:-25px;
+    left:600px;
+    padding: 50px;
+}
+#contact h3{ display:none;}
+dl{margin:0px;}
+
+.contact-type{
+    float:left;
+    width:150px;
+    background-color:red;
+    color:white;
+}
+
+.contact-value{
+    background-color:black;}
+
+.skill{
+    background-color:gray;
+    height:22px;
+    margin:4px;
+    padding:5px;
+
+}
+.skill span {
+    background-color: red;
+    display: block;
+    width:50%;
+    height: 90%;
+}
+
+.skills-primary::before{
+    content:'main';
+}
+
+.skills-secondary::before{
+    content:'other';
+}
+
+[data-skill='5'] span{
+    width:50%;
+}
+[data-skill='3'] span{
+    width:30%;
+}
+[data-skill='1'] span{
+    width:10%;
+}
+[data-skill='9'] span{
+    width:90%;
+}
+[data-skill='5'] span{
+    width:50%;
+}
+[data-skill='7'] span{
+    width:70%;
+}
